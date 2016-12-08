@@ -1,0 +1,10 @@
+Weeman contributors
+--------------------
+
+Thanks to these nice people:
+----------------------------
+
+Bugzap91 - for the link patch.
+Adrien Kuhn () - for adding Fedora instructions #3.
+lisogallo - 'external_js' option for including external scripts
+

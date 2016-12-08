@@ -1,0 +1,228 @@
+ 
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li, tt,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ text-align:left;
+ text-decoration:none;
+ border-bottom:none;
+ font-weight:normal;
+ font-style:normal;
+ border:none;
+ color:#111111;
+ 
+}
+
+/* Basic Styling */
+
+body {
+       margin:0;
+       padding:0;
+       background-color: #f5f5d5 ;
+       font-family: monospace,Georgia, serif;
+       letter-spacing: -0.01em;
+       word-spacing:0.2em;
+       line-height: 1.8em;
+        
+       color:#111111;
+       width:100%;
+       height: 100%;
+}
+
+a {
+	cursor: crosshair;
+}
+/*body {
+    color: black;
+    font-size: 16px;
+    margin: 0px auto 0px auto;
+     
+    font-family: monospace;
+    line-height:150%;
+     margin: 80px 0px;
+    background: url("../images/bg.png")
+}
+*/
+ul li {
+      list-style: disc;
+      padding:  1px 10px ;
+      color: #000;
+      font-size: 18px;
+      font-weight: bold;;
+}
+
+ul li a {
+      font-weight: bold;
+      font-size: 20px;
+      display: inline-block;
+      font-family: Helvetica,monospace;
+border-bottom-style: dotted;
+border-bottom-width: medium;
+border-bottom-color: aquamarine;
+
+}
+
+ul li a:hover{
+        color: blue;
+}
+#hd-block{
+  width: 100%;
+  height: 280px;
+  background-image: url(../images/head.jpeg);
+
+
+}
+#adage {
+    font-size: 32px;
+    margin: 0px 24%;
+    padding: 40px 10px 0px 30px;
+    font-family: monospace;
+    color: #ffe;
+    font-weight:bold;
+}
+.container-1{
+margin: 0% auto 0;
+padding: 150px 10%;
+    
+    background-color: #e1eab1;
+    background-image: -moz-radial-gradient(50% 50%,circle cover,#ddd,#e1eab1 60%);
+    background-image: -ms-radial-gradient(50% 50%,circle cover,#ddd,#e1eab1 60%);
+    background-image: -webkit-radial-gradient(50% 50%,circle cover,#ddd,#e1eab1 60%);
+    background-image: radial-gradient(50% 50%,circle cover,#ddd,#e1eab1 60%);
+}
+.container {
+  background: #ffe;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 100px auto 0;
+  max-width: 560px;
+  min-height: 430px;
+  padding: 100px;
+  position: relative;
+  width: 80%;
+}
+
+.container:before, .container:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.container:before {
+  background: #ffe;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+
+.container:after {
+  background: #ffe;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+
+
+div#header {
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    padding: 12px 0px 12px 0px;
+}
+
+div#logo a {
+    color: black;
+    float: left;
+    font-size: 18px;
+    cursor: crosshair;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#header #navigation {
+    text-align: right;
+}
+
+div#header #navigation a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div#footer {
+    border-top: solid 2px black;
+    color: #555;
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 12px 0px 12px 0px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+div.info {
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+pre {   
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+  }
+
+
+.footer {
+  background: #666;
+  color: #d3d3d3;
+  height: 265px;
+  margin-top: 0px;
+  overflow: hidden;
+  padding-top: 75px;
+}
+.footer  .fcontainer {
+  margin: 100px ;
+  position: relative;
+  margin: 0 auto;
+}
+.footer .site-title-wrapper {
+  margin: 80px auto 35px;
+
+}
+.footer .site-title-wrapper h1 {
+  font-size: 18px;
+  
+}
+.footer  .site-title-wrapper {
+  display: table;
+  margin: 0 auto;
+}
+.site-title-another{
+
+  display: inline-block;
+}
+.footer p{
+  margin-top: 20px;
+  text-align: center;
+  margin: 15px auto;
+}

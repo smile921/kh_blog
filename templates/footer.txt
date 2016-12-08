@@ -1,0 +1,33 @@
+﻿<footer class="footer">
+        <div class="container">
+            <div class="site-title-wrapper">
+                <h1 class="site-title-another "><a title="首页" href="http://www.fujiji.com">首页</a><span>|</span></h1>
+                <h1 class="site-title-another "><a title="咖啡" href="http://cafe.fujiji.com/">咖啡</a><span>|</span></h1>
+                <h1 class="site-title-another "><a title="博客" href="http://blog.fujiji.com/">博客</a></h1>
+            </div>
+
+            <p class="footer-copyright">© 2015 / FUJIJI,&nbsp;&nbsp;ALL RIGHTS RESERVED.&nbsp;&nbsp;PUBLISHED WITH <a href="https://ghost.org">GHOST</a></p>
+        </div>
+</footer>
+
+
+.footer {
+  background: #666;
+  color: #d3d3d3;
+  height: 265px;
+  margin-top: 95px;
+  overflow: auto;
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 889px;
+}
+.footer .site-title-wrapper {
+  margin: 80px auto 35px;
+}
+.site-title-wrapper {
+  display: table;
+  margin: 0 auto;
+}
